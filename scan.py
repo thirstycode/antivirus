@@ -1,7 +1,9 @@
 import os
+from socket import socket
 import pandas
 import md5_generate
 import status
+import quarantinate
 
 folders_scanned=1
 files_scanned=0
@@ -13,7 +15,7 @@ virus_md5=[]
 for i in file["md5"]:
     virus_md5.append(i[2:-1])
 
-for root, directories, filenames in os.walk('D://softwares'):
+for root, directories, filenames in os.walk('D:\kar'):
      for directory in directories:
          folders_scanned += 1
          # print( os.path.join(root, directory))
@@ -33,4 +35,5 @@ for root, directories, filenames in os.walk('D://softwares'):
 
 print("Scanning Completed ...!")
 # TODo Save Log
+quarantinate.delete(root,filename,threats_cleaned)
 print("Details Saved ...!")
