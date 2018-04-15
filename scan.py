@@ -37,7 +37,6 @@ if select == "a":
                  files_scanned += 1
                  md5_key = md5_generate.md5(os.path.join(root,filename))
                  if md5_key in virus_md5:
-                     threats_detected += 1
                      # <------TODo Quarantinate Function ------------->
                      threats_cleaned = quarantinate.delete(os.path.join(root,filename),threats_cleaned)
                  else:
