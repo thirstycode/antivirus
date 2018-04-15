@@ -1,3 +1,4 @@
+# to delete the infected file
 import os
 import socket
 def delete(file_loc,threats_cleaned):
@@ -7,6 +8,7 @@ def delete(file_loc,threats_cleaned):
             # print(" %s is Deleted"% filename)
             threats_cleaned += 1
             return threats_cleaned
+#     exceptions
     except PermissionError:
         threats_cleaned +=0
         return threats_cleaned
