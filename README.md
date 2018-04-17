@@ -16,7 +16,7 @@
 ```bash
 1. python scan.py
 ```
-It works on matching the md5 keys of files with the database of viruses given. Database currently has more than 0.5 million virus signatures!
+It works on matching the md5 keys of files with the database of viruses given. Database currently has more than 0.5 million virus signatures till 2016!
 <br>
 
 ## Disclaimer :
