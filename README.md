@@ -16,3 +16,10 @@
 1. python scan.py
 ```
 <br>
+It works on matching the md5 keys of files with the database of viruses given.
+<br>
+##### Disclaimer:
+Virus signature database is updated till 2016 only . You might able to remove viruses but not new viruses .
+<br>
+Updated Antivirus Which works with VirusTotal API is [here](https://github.com/thirstycode/antivirus-with-Api)
+This Updated Antivirus Scans And Removes All Latest Viruses Even Ransomwares And All & Is Able To Clean Computer More Than Any Other Antivirus Will !!
