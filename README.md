@@ -23,6 +23,5 @@ It works on matching the md5 keys of files with the database of viruses given.
 ## Disclaimer :
 * Virus signature database is updated till 2016 only . You might able to remove viruses but not new viruses. 
 Updated Antivirus Which works with VirusTotal API is [here !](https://github.com/thirstycode/antivirus-with-Api)
-<br>
 This Updated Antivirus Scans And Removes All Latest Viruses Even Ransomwares And All & Is Able To Clean Computer More Than Any Other Antivirus Will !!
-<br>
+* Get log reports is TODO in script.
