@@ -16,7 +16,6 @@
 ```bash
 1. python scan.py
 ```
-<br>
 It works on matching the md5 keys of files with the database of viruses given.
 <br>
 
